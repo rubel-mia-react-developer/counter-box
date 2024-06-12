@@ -1,0 +1,39 @@
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.show{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 10px;
+    border:2px solid  ;
+    background: transparent;
+}
+.one{
+    color: #FB0000;
+    box-shadow: 0px 14px 28px 0px rgba(251,0,0,1),
+    0px 10px 10px 0px rgba(0,0,0,0.22);
+}
+.two{
+    color: #04FF29;
+    box-shadow: 0px 14px 28px 0px rgba(4,255,41,1),
+    0px 10px 10px 0px rgba(0,0,0,0.22);
+}
+.three{
+    color: #feec02;
+    box-shadow: 0px 14px 28px 0px rgba(254,236,2,1),
+    0px 10px 10px 0px rgba(0,0,0,0.22);
+}
